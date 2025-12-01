@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="AdventOfCode2025.Runner/AdventOfCode2025.Runner.csproj" Id="70d4cf85-d22f-4a8e-9bf7-8adf70a3f56f" />
+</Solution>
