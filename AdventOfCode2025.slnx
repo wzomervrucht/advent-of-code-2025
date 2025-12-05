@@ -4,5 +4,6 @@
     <File Path=".gitignore" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="AdventOfCode2025.Runner/AdventOfCode2025.Runner.csproj" Id="70d4cf85-d22f-4a8e-9bf7-8adf70a3f56f" />
+  <Project Path="Console/AdventOfCode2025.Console.csproj" Id="e8d60af8-0191-4e69-a4c2-d14256bfb5ee" />
+  <Project Path="Puzzles/AdventOfCode2025.Puzzles.csproj" Id="7b30919d-ccc5-442b-9151-74df7b319470" />
 </Solution>
