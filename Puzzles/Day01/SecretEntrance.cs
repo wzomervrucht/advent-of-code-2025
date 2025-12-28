@@ -31,11 +31,11 @@ public static class SecretEntrance
     {
         public int Value => Direction == Direction.Right ? Distance : -Distance;
 
-        public static Rotation Parse(string line)
+        public static Rotation Parse(string rotation)
         {
-            Validate.IsMatch(line, @"^[LR]\d+$");
-            var direction = line[0] == 'L' ? Direction.Left : Direction.Right;
-            var distance = int.Parse(line[1..]);
+            Validate.IsMatch(rotation, @"^[LR]\d+$");
+            var direction = rotation[0] == 'L' ? Direction.Left : Direction.Right;
+            var distance = int.Parse(rotation[1..]);
             return new Rotation(direction, distance);
         }
     }
