@@ -11,5 +11,7 @@ internal static class EnumerableExtensions
                 action(item);
             }
         }
+
+        public string Join(string? separator = null) => string.Join(separator, items);
     }
 }

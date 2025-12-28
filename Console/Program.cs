@@ -1,11 +1,11 @@
-﻿using AdventOfCode2025.Puzzles.Day01;
+﻿using AdventOfCode2025.Puzzles.Day02;
 
-var assembly = typeof(SecretEntrance).Assembly.Location;
-var path = Path.Combine(assembly, "..", "Input", "input01.txt");
+var assembly = typeof(GiftShop).Assembly.Location;
+var path = Path.Combine(assembly, "..", "Input", "input02.txt");
 var input = await File.ReadAllLinesAsync(path);
 
-Console.WriteLine($"Day {SecretEntrance.Day}: {SecretEntrance.Title}");
+Console.WriteLine($"Day {GiftShop.Day}: {GiftShop.Title}");
 Console.Write("Part One: ");
-Console.WriteLine(SecretEntrance.Solve1(input));
+Console.WriteLine(GiftShop.Solve1(input));
 Console.Write("Part Two: ");
-Console.WriteLine(SecretEntrance.Solve2(input));
+Console.WriteLine(GiftShop.Solve2(input));
