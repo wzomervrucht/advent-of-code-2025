@@ -14,4 +14,9 @@ internal static class EnumerableExtensions
 
         public string Join(string? separator = null) => string.Join(separator, items);
     }
+
+    extension(Enumerable)
+    {
+        public static IEnumerable<int> RangeUntil(int start, int end) => Enumerable.Range(start, end - start);
+    }
 }
